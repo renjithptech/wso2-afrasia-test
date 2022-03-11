@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="AfrasiaTestAccountAPI" groupId="com.afr.bnk.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/AfrasiaTestAccountAPI.xml</file>
+    </artifact>
+    <artifact name="AfrasiaTestAccountAPI_swagger" groupId="com.afr.bnk.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/AfrasiaTestAccountAPI_swagger.yaml</file>
+    </artifact>
+    <artifact name="AfrasiaTestAccountAPI_metadata" groupId="com.afr.bnk.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/AfrasiaTestAccountAPI_metadata.yaml</file>
+    </artifact>
+</artifacts>
