@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/afrasia/bank/1.0.0" name="AfrasiaTestAccountAPI" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET" uri-template="/accounts/test">
+        <inSequence>
+            <log level="custom"/>
+            <payloadFactory media-type="json">
+                <format>{
+     "accountType": "test"
+}</format>
+                <args/>
+            </payloadFactory>
+            <log level="full"/>
+            <respond/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+    <resource methods="GET" uri-template="/accounts/{accountType}">
+        <inSequence>
+            <payloadFactory media-type="json">
+                <format>{
+    "doctors": {
+        "doctor": [
+            {
+                "name": "John Mathew",
+                "time": "03:30 PM",
+                "hospital": "Grand Oak"
+            },
+            {
+                "name": "Allan Silvester",
+                "time": "04:30 PM",
+                "hospital": "Grand Oak"
+            }
+        ]
+    }
+}</format>
+                <args/>
+            </payloadFactory>
+            <respond/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+</api>
