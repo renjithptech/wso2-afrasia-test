@@ -108,7 +108,7 @@
           </projectnatures>
         </configuration>
       </plugin>
-      <plugin>
+  <!--     <plugin>
         <groupId>org.wso2.maven</groupId>
         <artifactId>synapse-unit-test-maven-plugin</artifactId>
         <version>5.2.38</version>
@@ -131,7 +131,7 @@
           <testCasesFilePath>${project.basedir}/test/${testFile}</testCasesFilePath>
           <mavenTestSkip>${maven.test.skip}</mavenTestSkip>
         </configuration>
-      </plugin>
+      </plugin> -->
       <plugin>
         <groupId>org.wso2.maven</groupId>
         <artifactId>wso2-esb-api-plugin</artifactId>
