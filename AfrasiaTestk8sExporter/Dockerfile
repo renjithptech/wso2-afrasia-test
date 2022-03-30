@@ -6,6 +6,7 @@ COPY Resources/client-truststore.jks ${WSO2_SERVER_HOME}/repository/resources/se
 #COPY Libs/*.jar ${WSO2_SERVER_HOME}/lib/
 
 
+
 #[DO NOT REMOVE] Auto generated Docker commands for config-map parser
 COPY  --chown=wso2carbon:wso2 CarbonHome/conf/axis2/axis2.xml ${WSO2_SERVER_HOME}/conf/axis2/axis2.xml
 COPY  --chown=wso2carbon:wso2 CarbonHome/conf/axis2/axis2_blocking_client.xml ${WSO2_SERVER_HOME}/conf/axis2/axis2_blocking_client.xml

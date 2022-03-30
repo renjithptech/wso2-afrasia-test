@@ -1,9 +1,8 @@
 ---
-apiVersion: "wso2.com/v1alpha2"
+apiVersion: "integration.wso2.com/v1alpha1"
 kind: "Integration"
 metadata:
-  name: "AfrasiaTestk8s"
+  name: "afrasiatest-kubs"
 spec:
+  replicas: 1
   image: "renjithptecholution/afrasiatest:1.0.0-SNAPSHOT"
-  deploySpec:
-    minReplicas: 1
